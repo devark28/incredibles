@@ -1,0 +1,74 @@
+.inc-contacts-main::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    background: white;
+    top: 0;
+    right: 0;
+}
+
+.inc-contacts-main>div{
+    z-index: 1;
+}
+
+.inc-contacts-table {
+    /* margin-top: 1rem; */
+}
+
+.inc-contacts-table>tbody {}
+
+.inc-contacts-table>tbody>tr {}
+
+.inc-contacts-table>tbody>tr>td:first-child {
+    /* width: 65%; */
+    /* background-color: white; */
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.inc-contacts-table>tbody>tr>td:first-child>div {
+    /* width: 60%; */
+    /* height: 80%; */
+    border-radius: .5rem;
+    background-color: white;
+    padding: 1rem;
+    color: black;
+}
+
+.inc-contacts-table>tbody>tr>td:first-child>div>span {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.inc-contacts-table>tbody>tr>td:first-child>div>div {
+    margin-left: .5rem;
+    line-break: anywhere;
+}
+
+.inc-contacts-table>tbody>tr>td:last-child {
+    /* width: 35%; */
+    /* background-color: black; */
+    display: flex;
+    justify-content: start;
+    padding: 1.3rem;
+}
+
+.inc-contacts-table>tbody>tr>td:last-child>div {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: black;
+}
+
+.inc-contact-services>div:first-child {
+    margin-left: 0;
+}
+
+.inc-contact-nav+div>div:last-child {
+    justify-content: center;
+    flex: 0.6;
+    align-items: start;
+}

@@ -1,0 +1,40 @@
+.inc-contact-win {
+    display: flex;
+    width: 12rem;
+    height: 8rem;
+    /* background: rgba(0, 0, 0, 0.8); */
+    border-color: black;
+    /* border-width: .2rem; */
+    border-style: solid;
+    border-radius: .3rem;
+    margin: .5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inc-services-table {
+    width: 65%;
+}
+
+.inc-services-table>tbody {
+    height: 85%;
+}
+
+.inc-services-table>tbody>tr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inc-services-table>tbody>tr>td {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.inc-services-table>tbody>tr>td:last-child {
+    color: black;
+}
