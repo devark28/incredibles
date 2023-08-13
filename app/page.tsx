@@ -1,6 +1,4 @@
-import CallIcon from '@mui/icons-material/Call';
-import EmailIcon from '@mui/icons-material/Email';
-import ShareIcon from '@mui/icons-material/Share';
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -54,11 +52,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
-          <EmailIcon className="inc-bottom-icons"/>
-          <CallIcon className="inc-bottom-icons"/>
-          <ShareIcon className="inc-bottom-icons"/>
-        </div>
+        <Footer/>
       </div>
     </main>
   )
