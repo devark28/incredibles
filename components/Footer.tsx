@@ -11,7 +11,7 @@ export default function Footer() {
       <EmailIcon className="inc-bottom-icons"/>
       <CallIcon className="inc-bottom-icons"/>
       <GitHubIcon className="inc-bottom-icons"/>
-      <LinkedInIcon className="inc-bottom-icons"/>
+      {/*<LinkedInIcon className="inc-bottom-icons"/>*/}
       <ShareIcon className="inc-bottom-icons"/>
     </div>
   )
