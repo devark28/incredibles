@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen min-w-full p-6  inc-index-main">
       <div></div>
       <div className="flex flex-col min-w-full">
-        <Header/>
+        <Header page={0}/>
         <div className="flex flex-1 min-h-fit">
           <div className="flex flex-1 flex-col items-center justify-center">
             <div className="inc-hero-text">
