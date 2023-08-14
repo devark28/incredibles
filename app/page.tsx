@@ -1,32 +1,12 @@
 import Footer from "@/components/Footer"
+import Header from "@/components/Header"
 
 export default function Home() {
   return (
     <main className="flex min-h-screen min-w-full p-6  inc-index-main">
       <div></div>
       <div className="flex flex-col min-w-full">
-        <nav className="flex">
-          <div className="flex flex-1">
-            <b className="flex items-center inc-logo"><a href="/">incredible</a></b>
-            <ul className="flex flex-row list-none inc-header-links">
-              <a href="services">
-                <li className="p-6">services</li>
-              </a>
-              <a href="contacts">
-                <li className="p-6">contacts</li>
-              </a>
-              {/* <a href="about">
-                <li className="p-6">about us</li>
-              </a> */}
-              <a href="terms">
-                <li className="p-6">terms</li>
-              </a>
-            </ul>
-          </div>
-          <div className="flex items-center">
-            <button className="inc-services-btn">Get services here</button>
-          </div>
-        </nav>
+        <Header/>
         <div className="flex flex-1 min-h-fit">
           <div className="flex flex-1 flex-col items-center justify-center">
             <div className="inc-hero-text">

@@ -1,35 +1,15 @@
 import Footer from "@/components/Footer"
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import Header from "@/components/Header"
 
 export default function Home() {
   return (
     <main className="flex min-h-screen min-w-full p-6 relative inc-contacts-main">
       <div className="flex flex-col min-w-full">
-        <nav className="flex inc-contact-nav">
-          <div className="flex flex-1">
-            <b className="flex items-center inc-logo"><a href="/">incredible</a></b>
-            <ul className="flex flex-row list-none inc-header-links">
-              <a href="services">
-                <li className="p-6">services</li>
-              </a>
-              <a href="contacts" className="inc-active-menu">
-                <li className="p-6">contacts</li>
-              </a>
-              {/* <a href="about">
-                <li className="p-6">about us</li>
-              </a> */}
-              <a href="terms">
-                <li className="p-6">terms</li>
-              </a>
-            </ul>
-          </div>
-          <div className="flex items-center">
-            <button className="inc-services-btn">Get services here</button>
-          </div>
-        </nav>
+        <Header page={2}/>
         <div className="flex flex-1 min-h-fit">
-          <div className="flex flex-1 flex-col items-center justify-center">
-            <div className="inc-hero-text">
+          <div className="flex flex-[1.7] flex-col items-center justify-center">
+            <div className="inc-hero-text inc-contacts-hero">
                 <table className="h-full w-full inc-contacts-table">
                     <tbody className="flex flex-col h-full">
                         <tr className="flex flex-1">
@@ -41,7 +21,7 @@ export default function Home() {
                             </td>
                             <td>
                                 <div>
-                                    <AccountCircleIcon className="h-full w-full"/>
+                                  <img src="dever1.jpeg" alt="dever1"/>
                                 </div>
                             </td>
                         </tr>
@@ -54,7 +34,7 @@ export default function Home() {
                             </td>
                             <td>
                                 <div>
-                                    <AccountCircleIcon className="h-full w-full"/>
+                                  <img src="dever22.jpeg" alt="dever2"/>
                                 </div>
                             </td>
                         </tr>
@@ -62,7 +42,7 @@ export default function Home() {
                 </table>
             </div>
           </div>
-          <div className="flex flex-1 flex-col items-center justify-end">
+          <div className="flex flex-1 flex-col items-start justify-center">
             <div className="inc-hero-services inc-contact-services">
               <div>
                 <span className="inc-win1"></span>

@@ -57,10 +57,11 @@
 }
 
 .inc-contacts-table>tbody>tr>td:last-child>div {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
     background-color: black;
+    overflow: hidden;
 }
 
 .inc-contact-services>div:first-child {
