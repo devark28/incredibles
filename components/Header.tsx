@@ -4,7 +4,7 @@ export default function Header({page}:{page:number}) {
   return (
     <nav className="flex">
       <div className="flex flex-1">
-        <b className="flex items-center inc-logo"><a href="/">incredible</a></b>
+        <b className="flex items-center inc-logo"><a href="/">incredibles</a></b>
         <ul className="flex flex-row list-none inc-header-links">
           <a href="services"  className={(page==1)?("inc-active-menu"):("")}>
             <li className="p-6">services</li>

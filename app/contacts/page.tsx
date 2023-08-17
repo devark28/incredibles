@@ -1,6 +1,11 @@
 import Footer from "@/components/Footer"
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Header from "@/components/Header"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: 'INCREDIBLES | CONTACTS',
+}
 
 export default function Home() {
   return (
